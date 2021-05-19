@@ -20,11 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-<<<<<<< HEAD
-SECRET_KEY = 'django-insecure-kti##(e1=8c7s&i50vc+3fe!ai*qb7rb@m2ob+7169l&t-ac+@'
-=======
 SECRET_KEY = 'django-insecure-d-%mgl7qou@cf*7@tz9wn-o0xzt#cvfj-oz!yyjn^^_87iqnf3'
->>>>>>> d3eeea9... Added html templates for the project, creation of the base template which contains the navigation bar and the footer from which the other templates inherit. Implementation of a bootstrap design.
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -41,10 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-=======
     'online_store_app',
->>>>>>> d3eeea9... Added html templates for the project, creation of the base template which contains the navigation bar and the footer from which the other templates inherit. Implementation of a bootstrap design.
 ]
 
 MIDDLEWARE = [

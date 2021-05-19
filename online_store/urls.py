@@ -14,17 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-<<<<<<< HEAD
-from django.urls import path
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-=======
 from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
 
     path('', include('online_store_app.urls')),
->>>>>>> d3eeea9... Added html templates for the project, creation of the base template which contains the navigation bar and the footer from which the other templates inherit. Implementation of a bootstrap design.
 ]

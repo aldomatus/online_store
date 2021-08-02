@@ -1,6 +1,6 @@
 body {
   font-family: 'Lora';
-  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg_main.jpg");
+  background: linear-gradient(rgba(47, 23, 15, 0.6), rgba(47, 23, 15, 0.4)), url("../img/bg_main.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -41,6 +41,8 @@ p {
   font-size: 5rem;
   font-weight: 100;
   line-height: 4rem;
+  color: #ffffff;
+  
 }
 
 .page-section {
@@ -50,6 +52,7 @@ p {
 
 .section-heading {
   text-transform: uppercase;
+  color: aliceblue;
 }
 
 .section-heading .section-heading-upper {
@@ -76,11 +79,11 @@ p {
 }
 
 .bg-faded {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(202, 145, 38, .90);
 }
 
 #mainNav {
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(54, 143, 121);
   font-family: 'Raleway';
 }
 
@@ -131,13 +134,24 @@ p {
     float: left;
   }
   .intro .intro-text {
-    left: 600;
+    left: 700;
     width: 60%;
     margin-top: 3rem;
-    background-color: rgba(24, 64, 8);
+    background-color: rgb(202, 145, 38);
     color: cornsilk;
     position: absolute;
+    opacity: 0.9;
   }
+
+  .intro .intro-text-blog {
+    left: 700;
+    width: 60%;
+    background-color: rgb(202, 145, 38);
+    color: cornsilk;
+    position: absolute;
+    opacity: 0.9;
+  }
+
   .intro .intro-text .intro-button {
     width: 100%;
     left: 0;
@@ -155,14 +169,15 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgb(242, 245, 240);
+  background-color: rgb(174, 218, 208);
+  opacity: .95;
 }
 
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
-  background-color: rgba(24, 64, 8);
+  background-color: rgb(54, 143, 121);
   color: cornsilk;
 }
 
@@ -235,7 +250,7 @@ p {
 
 
 .btn {
-  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(223, 223, 223, 0.2);
 }
 
 
@@ -277,3 +292,45 @@ ul.errorlist{
   font-style: italic;
   color: red;
 }
+
+.categorylinks{
+  color: white !important;
+  text-decoration: underline;
+}
+
+.categorylinks:hover{
+  text-decoration: none;
+}
+
+.form_content{
+  background-color: rgb(54, 143, 121);
+  width: 70%;
+  padding: 5px 0px;
+  margin: 40px auto;
+  border-radius: 10px;
+
+}
+
+.form_content div{
+  background-color: rgb(174, 218, 208);
+  margin: 30px auto;
+  padding: 10px 0 10px 0;
+  }
+
+.form_content form{
+  
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.form_content table{
+  color: black;
+  margin: 30px auto;
+}
+
+.form_content input{
+  width: 150px;
+}
+

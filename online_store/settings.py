@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'online_store_app',
     'services',
     'blog',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -82,7 +83,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME':'online_store',
         'USER':'postgres',
-        'PASSWORD': '1997',
+        'PASSWORD': 'postgres',
         'HOST':'127.0.0.1',
         'DATABASE_PORT':'5432',
     }

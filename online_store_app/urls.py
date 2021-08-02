@@ -6,6 +6,4 @@ urlpatterns = [
         #   urls site 
     path('', views.home, name = 'home'),
     path('store', views.store, name = 'store'),
-    path('blog', views.blog, name = 'blog'),
-    path('contact', views.contact, name = 'contact'),
 ]
